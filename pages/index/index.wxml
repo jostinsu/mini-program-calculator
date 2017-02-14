@@ -1,0 +1,69 @@
+<view class="cal_stage">
+  <view class="cal_header">{{express}}</view>
+  <view class="cal_main cal_operation">
+    <view class="cal_operation_row cal_operation_row_First">
+      <view class="cal_operation_col" hover hover-class="cal_operation_col_Hover" bindtap="operateTap" data-value="delete">
+        <text class="cal_operation_col_text cal_operation_col_text_SmallFont">清空</text>
+      </view>
+      <view class="cal_operation_col cal_operation_col_BigSpace" hover hover-class="cal_operation_col_Hover" bindtap="operateTap" data-value="back">
+        <text class="cal_operation_col_text cal_operation_col_text_SmallFont">回退</text>
+      </view>
+      <view class="cal_operation_col cal_operation_col_Last" hover hover-class="cal_operation_col_Hover" bindtap="operatorTap" data-value="/">
+        <text class="cal_operation_col_text">÷</text>
+      </view>
+    </view>
+    <view class="cal_operation_row">
+      <view class="cal_operation_col" hover hover-class="cal_operation_col_Hover" bindtap="numberTap" data-value="7">
+        <text class="cal_operation_col_text">7</text>
+      </view>
+      <view class="cal_operation_col" hover hover-class="cal_operation_col_Hover" bindtap="numberTap" data-value="8">
+        <text class="cal_operation_col_text">8</text>
+      </view>
+      <view class="cal_operation_col" hover hover-class="cal_operation_col_Hover" bindtap="numberTap" data-value="9">
+        <text class="cal_operation_col_text">9</text>
+      </view>
+      <view class="cal_operation_col cal_operation_col_Last" hover hover-class="cal_operation_col_Hover" bindtap="operatorTap" data-value="*">
+        <text class="cal_operation_col_text">×</text>
+      </view>
+    </view>
+    <view class="cal_operation_row">
+      <view class="cal_operation_col" hover hover-class="cal_operation_col_Hover" bindtap="numberTap" data-value="4">
+        <text class="cal_operation_col_text">4</text>
+      </view> 
+      <view class="cal_operation_col" hover hover-class="cal_operation_col_Hover" bindtap="numberTap" data-value="5">
+        <text class="cal_operation_col_text">5</text>
+      </view>
+      <view class="cal_operation_col" hover hover-class="cal_operation_col_Hover" bindtap="numberTap" data-value="6">
+        <text class="cal_operation_col_text">6</text>
+      </view>
+      <view class="cal_operation_col cal_operation_col_Last" hover hover-class="cal_operation_col_Hover" bindtap="operatorTap" data-value="-">
+        <text class="cal_operation_col_text">－</text>
+      </view>
+    </view>
+    <view class="cal_operation_row">
+      <view class="cal_operation_col" hover hover-class="cal_operation_col_Hover" bindtap="numberTap" data-value="1">
+        <text class="cal_operation_col_text">1</text>
+      </view>
+      <view class="cal_operation_col" hover hover-class="cal_operation_col_Hover" bindtap="numberTap" data-value="2">
+        <text class="cal_operation_col_text">2</text>
+      </view>
+      <view class="cal_operation_col" hover hover-class="cal_operation_col_Hover" bindtap="numberTap" data-value="3">
+        <text class="cal_operation_col_text">3</text>
+      </view>
+      <view class="cal_operation_col cal_operation_col_Last" hover hover-class="cal_operation_col_Hover" bindtap="operatorTap" data-value="+">
+        <text class="cal_operation_col_text">+</text>
+      </view>
+    </view>
+    <view class="cal_operation_row cal_operation_row_Last">
+      <view class="cal_operation_col  cal_operation_col_BigSpace" hover hover-class="cal_operation_col_Hover" bindtap="numberTap" data-value="0">
+        <text class="cal_operation_col_text">0</text>
+      </view>
+      <view class="cal_operation_col" hover hover-class="cal_operation_col_Hover" bindtap="numberTap" data-value=".">
+        <text class="cal_operation_col_text">.</text>
+      </view>
+      <view class="cal_operation_col cal_operation_col_Last" hover hover-class="cal_operation_col_Hover" bindtap="operatorTap" data-value="=">
+        <text class="cal_operation_col_text">=</text>
+      </view>
+    </view>
+  </view>
+</view>

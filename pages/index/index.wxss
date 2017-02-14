@@ -1,0 +1,67 @@
+page{
+  height: 100%;
+  background: #000;
+  -webkit-font-smoothing: antialiased;
+}
+.cal_stage{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: black;
+}
+.cal_header{
+  flex-grow: 1;
+  font-size: 40px;
+  color: #fff;
+}
+.cal_main{
+  height: 937.5rpx;
+  background: #d4d5d7;
+}
+.cal_operation{
+  display: flex;
+  flex-direction: column;
+}
+.cal_operation_row{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.cal_operation_col{
+  position: relative;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 30px;
+  box-sizing: border-box;
+  border-right: 1px solid #717274;
+  border-bottom: 1px solid #717274; 
+}
+.cal_operation_col_BigSpace{
+  flex-grow: 2;
+}
+.cal_operation_row_First .cal_operation_col{
+  background: #cacbcd;
+}
+.cal_operation_row_Last .cal_operation_col{
+  border-bottom: none;
+}
+.cal_operation_row .cal_operation_col_Last{
+  background: #ed903c;
+  border-right: none;
+  color: #fff;
+}
+.cal_operation_col.cal_operation_col_Hover{
+  background: #b8b9bb;
+}
+.cal_operation_col_Last.cal_operation_col_Hover{
+  background: #d58036;
+}
+.cal_operation_col_text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.cal_operation_col_text_SmallFont{
+  font-size: 20px;
+}
