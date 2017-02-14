@@ -1,2 +1,2 @@
-# MiniProgram-calculator
-a calculator for WeChat MiniProgram
+# mini-program-calculator
+a calculator for WeChat mini program
